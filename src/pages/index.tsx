@@ -7,10 +7,10 @@ const Home: NextPage = () => {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<title>Tundra Targeted Limited</title>
+				<title>Tundra Targeted Therapeutics</title>
 				<meta
 					name='description'
-					content='Tundra Targeted Limited, Inc.' />
+					content='Tundra Targeted Therapeutics, Inc.' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 		</div>
