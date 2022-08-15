@@ -1,7 +1,7 @@
 import type {NextPage} from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import HomePage from '../features/Home'
 
 const Home: NextPage = () => {
 	return (
@@ -13,6 +13,9 @@ const Home: NextPage = () => {
 					content='Tundra Targeted Therapeutics, Inc.' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
+            <main>
+                <HomePage />
+            </main>
 		</div>
 	)
 }
