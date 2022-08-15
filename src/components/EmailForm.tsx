@@ -20,7 +20,7 @@ function EmailForm() {
 					<input type='email' className={styles.email} id='email'></input>
 				</div>
                 <div className={styles.column}>
-                    <h3>Message/Question</h3>
+                    <h3>Message/Question:</h3>
                     <textarea className={styles.textArea} />
                 </div>
                 <div className={styles.button}>
