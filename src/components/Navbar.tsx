@@ -1,11 +1,20 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Navbar.module.css'
+import Logo from '../../public/images/ttt-logo.png'
 
 function Navbar() {
 	return (
 		<div>
-			{/* <Image src={'/images/ttt-logo.png'} width={250} height={200} alt='Logo' /> */}
+            <div className={styles.logo}>
+                <Image 
+                    src={Logo} 
+                    width={160} 
+                    height={130}
+                    alt='Logo' />
+                    <h1 className={styles.tttName}>Tundra Targeted Therapeutics, Inc.</h1>
+            </div>
+			
 			<div className={styles.nav}>
 				<Link href='/'>
 					<a className={styles.navItem}>Home</a>
