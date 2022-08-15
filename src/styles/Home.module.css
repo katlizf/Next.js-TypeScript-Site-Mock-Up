@@ -1,8 +1,4 @@
-/* .main {
-    display: flex;
-} */
 .image {
-    /* background-image: url('https://cdn.pixabay.com/photo/2013/07/18/10/55/microbiology-163470_960_720.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,12 +12,18 @@
     align-self: center;
     padding-left: 2rem;
     padding-right: 2rem;
-    font-size: x-large;
-    margin-left: 15vw;
+    margin-left: 18vw;
     background-color: white;
     width: 1000px;
     height: 250px;
     position: absolute;
     z-index: 99;
-    margin-top: 175px;
+    margin-top: 125px;
+}
+.title {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.statement {
+    font-size: x-large;
 }
