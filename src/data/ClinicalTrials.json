@@ -1,0 +1,14 @@
+{
+    "clinicalTrials": [
+        {
+            "id": 1,
+            "name": "Example 1",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque, soluta velit id sint natus hic vero tempore. Et reprehenderit optio distinctio consequuntur iste porro. Laborum aliquid perspiciatis quo rem!"
+        },
+        {
+            "id": 2,
+            "name": "Example 2",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque, soluta velit id sint natus hic vero tempore. Et reprehenderit optio distinctio consequuntur iste porro. Laborum aliquid perspiciatis quo rem!"
+        }
+    ]
+}
