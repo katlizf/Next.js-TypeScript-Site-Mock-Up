@@ -23,8 +23,8 @@ function NewsItem({news}: {news: any}) {
                     <Image
                         src={news.image}
                         alt={news.title}
-                        width={550}
-                        height={520} />
+                        width={700}
+                        height={620} />
                 </div>
                 ))}
         </div>

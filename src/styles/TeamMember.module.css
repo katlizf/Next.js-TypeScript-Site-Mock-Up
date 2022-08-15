@@ -17,9 +17,11 @@
 .member {
     display: flex;
     flex-direction: row;
-    width: 45vw;
+    width: 55vw;
     margin-bottom: 3.75rem;
     z-index: 99;
+    padding: 2rem;
+    background-color: #6f9fcc;
 }
 .member:last-child {
     margin-bottom: 3.75rem;
@@ -43,6 +45,6 @@
 }
 .statement {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 5.25rem;
     z-index: 99;
 }
