@@ -23,7 +23,7 @@ function TeamMember({member}: {member: any}) {
 						<h1 className={styles.name}>{member.name}</h1>
 						<h2 className={styles.title}>{member.title}</h2>
 					</div>
-					<h2 className={styles.satement}>{member.statement}</h2>
+					<h2 className={styles.statement}>{member.statement}</h2>
 				</div>
 			))}
 		</div>

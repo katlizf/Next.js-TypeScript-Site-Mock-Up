@@ -2,33 +2,47 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3.75rem;
+    padding-top: 3.75rem;
+    background-color: #4f80ae;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
 }
 .header {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 4rem;
+    z-index: 99;
 }
 .member {
     display: flex;
     flex-direction: row;
     width: 45vw;
-    margin-bottom: 3rem;
+    margin-bottom: 3.75rem;
+    z-index: 99;
+}
+.member:last-child {
+    margin-bottom: 3.75rem;
 }
 .main {
     display: flex;
     flex-direction: column;
     margin-right: 2rem;
+    width: 800px;
+    z-index: 99;
 }
 .name {
-    font-size: xx-large;
+    font-size: 1.75rem;
     text-align: center;
+    z-index: 99;
 }
 .title {
-    font-size: x-large;
+    font-size: 1.25rem;
     text-align: center;
+    z-index: 99;
 }
 .statement {
-    font-size: 3rem;
-    text-align: center;
+    display: flex;
+    margin-top: 2rem;
+    z-index: 99;
 }
