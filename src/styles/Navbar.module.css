@@ -12,5 +12,9 @@
     padding-right: 3rem;
 }
 .navItem:hover {
-    color: #3C70A2
+    color: #4f80ae;
+    text-decoration: underline;
+}
+.navItem:last-child {
+    padding-right: none;
 }

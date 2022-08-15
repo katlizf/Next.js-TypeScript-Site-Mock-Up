@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '../styles/TeamMember.module.css'
 import Image from 'next/image'
-import avatar from '../images/avatar.png'
 
 function TeamMember({member}) {
 	return (
@@ -16,8 +15,10 @@ function TeamMember({member}) {
 				<div className={styles.member} key={member.id}>
 					<div className={styles.main}>
 						<Image 
-                            src={avatar} 
-                            alt={member.name} 
+                            src={member.image} 
+                            alt={member.name}
+                            width={520}
+                            height={550}
                             className={styles.image} />
 						<h1 className={styles.name}>{member.name}</h1>
 						<h2 className={styles.title}>{member.title}</h2>
