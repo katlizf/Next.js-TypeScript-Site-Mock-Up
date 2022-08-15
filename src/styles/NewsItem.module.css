@@ -1,0 +1,36 @@
+.newsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.75rem;
+}
+.header {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 65vw;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    border-top: solid;
+}
+.dateTime {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-right: 4rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.title {
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.description {
+    margin-right: 4rem;
+}

@@ -3,6 +3,7 @@
         {
             "id": 1,
             "date": "10/01/2022",
+            "time": "3:00pm - 4:30pm",
             "title": "Example 1",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque, soluta velit id sint natus hic vero tempore. Et reprehenderit optio distinctio consequuntur iste porro. Laborum aliquid perspiciatis quo rem!",
             "image": "/images/event.jpg"
@@ -10,6 +11,7 @@
         {
             "id": 2,
             "date": "11/11/2022",
+            "time": "1:00pm - 2:00pm",
             "title": "Example 2",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque, soluta velit id sint natus hic vero tempore. Et reprehenderit optio distinctio consequuntur iste porro. Laborum aliquid perspiciatis quo rem!",
             "image": "/images/event.jpg"
@@ -17,6 +19,7 @@
         {
             "id": 3,
             "date": "12/15/2022",
+            "time": "9:00am - 12:00pm",
             "title": "Example 3",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque, soluta velit id sint natus hic vero tempore. Et reprehenderit optio distinctio consequuntur iste porro. Laborum aliquid perspiciatis quo rem!",
             "image": "/images/event.jpg"
