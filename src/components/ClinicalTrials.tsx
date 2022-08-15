@@ -7,12 +7,12 @@ function ClinicalTrials({trials}: {trials: any}) {
             {trials && trials.map((trials: {
                 id: React.Key;
                 name: string;
-                description: string}) => {
-                    <div className={styles.main}>
+                description: string}) => (
+                    <div className={styles.main} key={trials.id}>
                         <h1 className={styles.name}>{trials.name}</h1>
                         <h2 className={styles.description}>{trials.description}</h2>
                     </div>
-                })}
+                ))}
         </div>
     )
 }
