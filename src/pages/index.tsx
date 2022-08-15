@@ -1,11 +1,10 @@
 import type {NextPage} from 'next'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import HomePage from '../features/Home'
 
 const Home: NextPage = () => {
 	return (
-		<div className={styles.container}>
+		<div>
 			<Head>
 				<title>Tundra Targeted Therapeutics</title>
 				<meta
