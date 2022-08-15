@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import TeamMember from '../components/TeamMember'
 import path from 'path'
-// import fs from 'fs/promises'
+import Head from 'next/head'
 
 function OurTeam(props: { member: any }) {
 
@@ -10,6 +10,9 @@ function OurTeam(props: { member: any }) {
 
     return (
         <div>
+            <Head>
+                <title>TTT Team</title>
+            </Head>
             <Navbar />
             <TeamMember member={member}/>
             <Footer />

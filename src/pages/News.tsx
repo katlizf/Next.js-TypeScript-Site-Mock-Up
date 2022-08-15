@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import NewsItem from '../components/NewsItem'
 import path from 'path'
+import Head from 'next/head'
 
 function News(props: {news: any}) {
 
@@ -9,6 +10,9 @@ function News(props: {news: any}) {
 
     return (
         <div>
+            <Head>
+                <title>TTT News</title>
+            </Head>
             <Navbar />
             <NewsItem news={news} />
             <Footer />

@@ -2,6 +2,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import ClinicalTrials from '../components/ClinicalTrials'
 import path from 'path'
+import Head from 'next/head'
 
 function Services(props: {trials: any}) {
 
@@ -9,6 +10,9 @@ function Services(props: {trials: any}) {
 
     return (
         <div>
+            <Head>
+                <title>TTT Services</title>
+            </Head>
             <Navbar />
             <ClinicalTrials trials={trials}/>
             <Footer />
