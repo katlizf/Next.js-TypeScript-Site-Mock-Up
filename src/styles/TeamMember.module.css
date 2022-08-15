@@ -1,0 +1,38 @@
+.memberContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.75rem;
+}
+.header {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+.member {
+    display: flex;
+    flex-direction: row;
+    width: 55vw;
+    margin-bottom: 3rem;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+.image {
+    height: 120px;
+    width: 90px;
+}
+.name {
+    font-size: xx-large;
+    text-align: center;
+}
+.title {
+    font-size: x-large;
+    text-align: center;
+}
+.statement {
+    font-size: 3rem;
+    text-align: center;
+}
