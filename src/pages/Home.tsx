@@ -1,7 +1,6 @@
-import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Background from '../images/home-bground.jpg'
+import Background from '../../public/images/home-bground.jpg'
 
 function Home() {
 	return (
