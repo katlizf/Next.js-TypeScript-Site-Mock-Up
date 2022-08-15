@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../styles/TeamMember.module.css'
 import Image from 'next/image'
 
-function TeamMember({member}) {
+function TeamMember({member}: {member: any}) {
 	return (
 		<div className={styles.memberContainer}>
             <p className={styles.header}>Our Team</p>
