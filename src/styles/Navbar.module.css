@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.navItem {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: large;
+}
+.navItem:hover {
+    color: #3C70A2
+}
