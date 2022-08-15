@@ -4,28 +4,28 @@ import Link from 'next/link'
 import styles from '../styles/Navbar.module.css'
 
 function Navbar() {
-    return (
-        <div>
-            {/* <Image src={'/images/ttt-logo.png'} width={250} height={200} alt='Logo' /> */}
-            <div className={styles.nav}>
-                <Link href='/'>
-                    <button className={styles.navItem}>Home</button>
-                </Link>
-                <Link href='/ourteam'>
-                    <button className={styles.navItem}>Our Team</button>
-                </Link>
-                <Link href='/services'>
-                    <button className={styles.navItem}>Services</button>
-                </Link>
-                <Link href='/news'>
-                    <button className={styles.navItem}>News</button>
-                </Link>
-                <Link href='/contact'>
-                    <button className={styles.navItem}>Contact</button>
-                </Link>
-            </div>
-        </div>
-    ) 
+	return (
+		<div>
+			{/* <Image src={'/images/ttt-logo.png'} width={250} height={200} alt='Logo' /> */}
+			<div className={styles.nav}>
+				<Link href='/'>
+					<a className={styles.navItem}>Home</a>
+				</Link>
+				<Link href='/OurTeam'>
+					<a className={styles.navItem}>Our Team</a>
+				</Link>
+				<Link href='/Services'>
+					<a className={styles.navItem}>Services</a>
+				</Link>
+				<Link href='/News'>
+					<a className={styles.navItem}>News</a>
+				</Link>
+				<Link href='/Contact'>
+					<a className={styles.navItem}>Contact</a>
+				</Link>
+			</div>
+		</div>
+	)
 }
 
 export default Navbar
