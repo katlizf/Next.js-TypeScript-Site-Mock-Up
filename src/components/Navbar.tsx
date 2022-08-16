@@ -7,12 +7,16 @@ function Navbar() {
 	return (
 		<div>
             <div className={styles.logo}>
-                <Image 
-                    src={Logo} 
-                    width={160} 
-                    height={130}
-                    alt='Logo' />
-                    <h1 className={styles.tttName}>Tundra Targeted Therapeutics, Inc.</h1>
+                <Link href='/'>
+                    <a>
+                       <Image 
+                        src={Logo} 
+                        width={160} 
+                        height={130}
+                        alt='Logo' /> 
+                    </a>
+                </Link>
+                <h1 className={styles.tttName}>Tundra Targeted Therapeutics, Inc.</h1>
             </div>
 			
 			<div className={styles.nav}>
