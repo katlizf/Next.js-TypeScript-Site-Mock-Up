@@ -1,8 +1,16 @@
 # Tundra Targeted Therapeutics Mock-Site
 
-Quick website mock-up for a recently created company.
+One-day coded website mock-up for a recently created company.
 
 [Hosted Site](https://tundra-targeted-therapeutics.herokuapp.com/)
+
+# Technology
+
+- Next.JS
+- Node.js
+- TypeScript
+- JavaScript
+- CSS
 
 # Wireframes
 
