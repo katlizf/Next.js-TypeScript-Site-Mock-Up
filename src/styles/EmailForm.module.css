@@ -8,12 +8,6 @@
     background-position: center;
     z-index: 1;
 }
-.header {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    z-index: 99;
-}
 .form {
     background-color: white;
     padding: 1.5rem;

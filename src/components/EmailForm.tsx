@@ -3,7 +3,7 @@ import styles from '../styles/EmailForm.module.css'
 function EmailForm() {
 	return (
 		<div className={styles.formContainer}>
-			<h1 className={styles.header}>Contact Us</h1>
+			<h1 className='header'>Contact Us</h1>
 			<form className={styles.form}>
 				<div className={styles.row}>
 					<div className={styles.column}>

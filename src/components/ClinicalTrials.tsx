@@ -2,8 +2,8 @@ import styles from '../styles/ClinicalTrials.module.css'
 
 function ClinicalTrials({trials}: {trials: any}) {
     return (
-        <div className={styles.trialContainer}>
-            <p className={styles.header}>Clinical Trials</p>
+        <div className='container'>
+            <p className='header'>Clinical Trials</p>
             {trials && trials.map((trials: {
                 id: React.Key;
                 name: string;

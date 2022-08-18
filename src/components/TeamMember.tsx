@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 function TeamMember({member}: {member: any}) {
 	return (
-		<div className={styles.memberContainer}>
-            <p className={styles.header}>Our Team</p>
+		<div className='container'>
+            <p className='header'>Our Team</p>
 			{member && member.map((member: { 
                 id: React.Key; 
                 image: string; 

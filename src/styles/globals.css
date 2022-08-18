@@ -2,7 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-.main {
+/* .main {
     padding: none;
     margin: none;
+} */
+
+@layer components {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3.25rem;
+        background-color: #4f80ae;
+        background-size: cover;
+        background-position: center;
+        z-index: 1;
+    }
+    .header {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 3rem;
+        z-index: 99;
+    }
 }

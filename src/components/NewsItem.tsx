@@ -3,8 +3,8 @@ import styles from '../styles/NewsItem.module.css'
 
 function NewsItem({news}: {news: any}) {
     return (
-        <div className={styles.newsContainer}>
-            <p className={styles.header}>News</p>
+        <div className='container'>
+            <p className='header'>News</p>
             {news && news.map((news: {
                 id: React.Key;
                 date: string;
