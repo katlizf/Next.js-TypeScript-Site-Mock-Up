@@ -1,15 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/NewsItem.module.css'
-
-type newsItem = {
-    map: any,
-    id: number,
-    date: string,
-    time: string,
-    title: string,
-    description: string,
-    image: string
-}
+import {newsItem} from '../types/newsItem'
 
 function NewsItem({news}: {news: newsItem}) {
     return (

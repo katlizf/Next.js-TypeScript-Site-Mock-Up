@@ -3,8 +3,9 @@ import Footer from '../components/Footer'
 import TeamMember from '../components/TeamMember'
 import path from 'path'
 import Head from 'next/head'
+import {Member} from '../types/member'
 
-function OurTeam(props: { member: any }) {
+function OurTeam(props: {member: Member}) {
 
     const {member} = props
 

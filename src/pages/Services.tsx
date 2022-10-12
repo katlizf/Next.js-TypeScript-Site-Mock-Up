@@ -3,8 +3,9 @@ import Footer from '../components/Footer'
 import ClinicalTrials from '../components/ClinicalTrials'
 import path from 'path'
 import Head from 'next/head'
+import {Trial} from '../types/trial'
 
-function Services(props: {trials: any}) {
+function Services(props: {trials: Trial}) {
 
     const {trials} = props
 
