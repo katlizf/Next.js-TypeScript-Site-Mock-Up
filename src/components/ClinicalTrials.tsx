@@ -1,6 +1,13 @@
 import styles from '../styles/ClinicalTrials.module.css'
 
-function ClinicalTrials({trials}: {trials: any}) {
+type trial = {
+    map: any;
+    id: number,
+    name: string,
+    age: number
+}
+
+function ClinicalTrials({trials}: {trials: trial}) {
     return (
         <div className='container'>
             <p className='header'>Clinical Trials</p>

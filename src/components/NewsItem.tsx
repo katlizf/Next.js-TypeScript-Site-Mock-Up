@@ -1,7 +1,17 @@
 import Image from 'next/image'
 import styles from '../styles/NewsItem.module.css'
 
-function NewsItem({news}: {news: any}) {
+type newsItem = {
+    map: any,
+    id: number,
+    date: string,
+    time: string,
+    title: string,
+    description: string,
+    image: string
+}
+
+function NewsItem({news}: {news: newsItem}) {
     return (
         <div className='container'>
             <p className='header'>News</p>

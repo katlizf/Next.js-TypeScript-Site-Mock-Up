@@ -1,6 +1,6 @@
 # Tundra Targeted Therapeutics Mock-Site
 
-Coded website mock-up for a recently created company.
+Coded very basic website mock-up for a recently created company.
 
 Not full responsive yet.
 

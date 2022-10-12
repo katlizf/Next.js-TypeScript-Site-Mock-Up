@@ -1,7 +1,16 @@
 import styles from '../styles/TeamMember.module.css'
 import Image from 'next/image'
 
-function TeamMember({member}: {member: any}) {
+type member = {
+    map: any,
+    id: number,
+    image: string,
+    name: string,
+    title: string,
+    statement: string
+}
+
+function TeamMember({member}: {member: member}) {
 	return (
 		<div className='container'>
             <p className='header'>Our Team</p>
