@@ -16,7 +16,7 @@ function Navbar() {
                         alt='Logo' /> 
                     </a>
                 </Link>
-                <h1 className={styles.tttName}>Mock-Up, Inc.</h1>
+                <h1 className={styles.name}>Mock-Up, Inc.</h1>
             </div>
 			
 			<div className={styles.nav}>
