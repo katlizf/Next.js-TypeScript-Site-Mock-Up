@@ -1,10 +1,10 @@
-# Tundra Targeted Therapeutics Mock-Site
+# Mock-Up Site
 
-Coded very basic website mock-up for a recently created company.
+Coded very basic website mock-up for a recently created company to learn Next.js and TypeScript.
 
 Not full responsive yet.
 
-[Hosted Site](https://tundra-targeted-therapeutics.herokuapp.com/)
+[Hosted Site](https://ka-mock-up.herokuapp.com/)
 
 # Technology
 
