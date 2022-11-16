@@ -7,7 +7,7 @@ function Contact() {
     return (
         <div>
             <Head>
-                <title>Mock-Up Contact</title>
+                <title>Tundra Targeted Therapeutics Contact</title>
             </Head>
             <Navbar />
             <EmailForm />

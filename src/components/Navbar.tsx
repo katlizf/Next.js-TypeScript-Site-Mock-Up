@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Navbar.module.css'
-import Logo from '../../public/images/logo.jpg'
+import Logo from '../../public/images/ttt-logo.png'
 
 function Navbar() {
 	return (
@@ -16,7 +16,7 @@ function Navbar() {
                         alt='Logo' /> 
                     </a>
                 </Link>
-                <h1 className={styles.name}>Mock-Up, Inc.</h1>
+                <h1 className={styles.tttName}>Tundra Targeted Therapeutics, Inc.</h1>
             </div>
 			
 			<div className={styles.nav}>

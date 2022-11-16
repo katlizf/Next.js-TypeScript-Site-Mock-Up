@@ -12,7 +12,7 @@ function News(props: {news: newsItem}) {
     return (
         <div>
             <Head>
-                <title>Mock-Up News</title>
+                <title>Tundra Targeted Therapeutics News</title>
             </Head>
             <Navbar />
             <NewsItem news={news} />

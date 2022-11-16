@@ -1,4 +1,4 @@
-# Mock-Up Site
+# Tundra Targeted Therapeutics Site
 
 Coded very basic website mock-up for a recently created company to learn Next.js and TypeScript.
 

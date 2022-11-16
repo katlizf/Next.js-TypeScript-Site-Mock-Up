@@ -12,7 +12,7 @@ function OurTeam(props: {member: Member}) {
     return (
         <div>
             <Head>
-                <title>Mock-Up Team</title>
+                <title>Tundra Targeted Therapeutics Team</title>
             </Head>
             <Navbar />
             <TeamMember member={member}/>
