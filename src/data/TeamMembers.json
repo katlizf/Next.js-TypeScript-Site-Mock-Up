@@ -3,22 +3,22 @@
         {
             "id": 1,
             "image": "/images/avatar.png",
-            "name": "Example 1",
-            "title": "example title 1",
+            "name": "James Smith, PhD",
+            "title": "Principle Investigator",
             "statement": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque, soluta velit id sint natus hic vero tempore. Et reprehenderit optio distinctio consequuntur iste porro. Laborum aliquid perspiciatis quo rem!"
         },
         {
             "id": 2,
             "image": "/images/avatar.png",
-            "name": "Example 2",
-            "title": "example title 2",
+            "name": "Jane Jones, PhD",
+            "title": "Medical Laboratory Scientist",
             "statement": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque, soluta velit id sint natus hic vero tempore. Et reprehenderit optio distinctio consequuntur iste porro. Laborum aliquid perspiciatis quo rem!"
         },
         {
             "id": 3,
             "image": "/images/avatar.png",
-            "name": "Example 3",
-            "title": "example title 3",
+            "name": "John Smith, PhD",
+            "title": "Postdoc",
             "statement": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque, soluta velit id sint natus hic vero tempore. Et reprehenderit optio distinctio consequuntur iste porro. Laborum aliquid perspiciatis quo rem!"
         }
     ]

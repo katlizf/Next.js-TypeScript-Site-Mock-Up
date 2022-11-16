@@ -23,6 +23,7 @@
 .title {
     font-size: 1.75rem;
     margin-top: 1rem;
+    width: 12rem;
     font-weight: 700;
     position: absolute;
     z-index: 99;
