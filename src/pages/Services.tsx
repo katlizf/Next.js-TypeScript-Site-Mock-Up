@@ -12,7 +12,7 @@ function Services(props: {trials: Trial}) {
     return (
         <div>
             <Head>
-                <title>TTT Services</title>
+                <title>Mock-Up Services</title>
             </Head>
             <Navbar />
             <ClinicalTrials trials={trials}/>

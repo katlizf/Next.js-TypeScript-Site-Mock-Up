@@ -7,7 +7,7 @@ function Contact() {
     return (
         <div>
             <Head>
-                <title>TTT Contact</title>
+                <title>Mock-Up Contact</title>
             </Head>
             <Navbar />
             <EmailForm />

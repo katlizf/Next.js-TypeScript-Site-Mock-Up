@@ -8,10 +8,10 @@ const Home: NextPage = () => {
 	return (
 		<div>
 			<Head>
-				<title>Tundra Targeted Therapeutics</title>
+				<title>Mock-Up</title>
 				<meta
 					name='description'
-					content='Tundra Targeted Therapeutics, Inc.' />
+					content='Mock-Up, Inc.' />
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
             <main>
