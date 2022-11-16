@@ -4,7 +4,7 @@ Coded very basic website mock-up for a recently created company to learn Next.js
 
 Not full responsive yet.
 
-[Hosted Site](https://ka-mock-up.herokuapp.com/)
+[Hosted Site](https://tundra-targeted-therapeutics.herokuapp.com/)
 
 # Technology
 
