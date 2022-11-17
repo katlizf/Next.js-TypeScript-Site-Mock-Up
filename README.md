@@ -1,8 +1,8 @@
 # Tundra Targeted Therapeutics Site
 
-Coded very basic website mock-up for a recently created company to learn Next.js and TypeScript.
+This project was a simple site mock-up for a start-up based on Figma wire frames (see below). My aim with this project was to learn and practice with Next.js and TypeScript. I used Next.js, TypeScript, Node.js, TailwindCSS, and example data read from json files using fs for coding this application.
 
-Not full responsive yet.
+Not compatible with all screen types.
 
 [Hosted Site](https://tundra-targeted-therapeutics.herokuapp.com/)
 
